@@ -8,4 +8,4 @@ RUN apk update && apk upgrade &&\
 EXPOSE 6379
 
 ENTRYPOINT ["/usr/bin/redis-server"]
-CMD [""]
+CMD ["--port", "6379"]
